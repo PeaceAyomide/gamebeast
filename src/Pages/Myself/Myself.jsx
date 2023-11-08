@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './Myself.css'
+import './myself.css'
 import Peace from '../assets/Peace.jpeg'
 import {BsWhatsapp} from 'react-icons/bs'
 import {RiTwitterXLine} from 'react-icons/ri'

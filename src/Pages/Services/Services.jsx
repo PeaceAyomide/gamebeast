@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './Services.css'
+import './services.css'
 import {IoLogoGameControllerB} from 'react-icons/io'
 import {GiGamepadCross} from 'react-icons/gi'
 import { BiGame } from 'react-icons/bi'

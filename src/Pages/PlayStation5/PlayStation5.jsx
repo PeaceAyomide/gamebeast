@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from 'react'
-import './PlayStation5.css'
+import './playstation.css'
 import PS5 from '../assets/PS5Advance.png'
 import { BsCart4 } from 'react-icons/bs';
 import { BiLoader } from 'react-icons/bi';

@@ -16,7 +16,7 @@ import Spiderman from '../gameassets/Spiderman.jpg'
 
 import { MdDownloadForOffline } from 'react-icons/md'
 import {AiFillStar} from 'react-icons/ai' 
-import './Games.css'
+import './games.css'
 import BicycleLoader from '../BikeLoader/BikeLoader'
 
 

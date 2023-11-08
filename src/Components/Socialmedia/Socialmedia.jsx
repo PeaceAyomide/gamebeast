@@ -1,5 +1,5 @@
 import React from 'react'
-import './Socialmedia.css'
+import './socialmedia.css'
 import {BsDiscord} from 'react-icons/bs'
 import {BsTwitch} from 'react-icons/bs'
 import {AiFillYoutube} from 'react-icons/ai'

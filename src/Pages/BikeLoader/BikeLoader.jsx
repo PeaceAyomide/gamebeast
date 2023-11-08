@@ -1,5 +1,5 @@
 import React from 'react'
-import './BikeLoader.css'
+import './bikeloader.css'
 
 const BikeLoader = () => {
   return (

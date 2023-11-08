@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './Navbar.css';
+import './navbar.css';
 import { BsFillHouseDoorFill } from 'react-icons/bs';
 import { IoLogoGameControllerB } from 'react-icons/io';
 import { BsPlaystation } from 'react-icons/bs';

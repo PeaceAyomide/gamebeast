@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { database } from './Pages/Home/FirbaseConfig'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
-import './RegistrationAndLogin.css'
+import './registrationandlogin.css'
 
 const RegistrationAndLogin = () => {
 

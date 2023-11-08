@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { SiNintendogamecube } from 'react-icons/si';
 import { BiLoader } from 'react-icons/bi';
-import './Home.css'
+import './home.css'
 import GamePad  from '../assets/GamePad.png'
 import Socialmedia from '../../Components/Socialmedia/Socialmedia';
 import { signOut } from 'firebase/auth'
