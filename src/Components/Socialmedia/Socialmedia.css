@@ -1,0 +1,19 @@
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: black;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: ease-in-out .3s;
+}
+.social-media a:hover{
+    background: black;
+    color: white;
+     box-shadow: 0 0 1rem var(--main-color); 
+    }

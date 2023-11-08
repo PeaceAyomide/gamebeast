@@ -1,0 +1,74 @@
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);   
+}
+
+.five{
+color: purple; 
+  margin-left: -7px; /* Adjust as needed */
+  margin-right: -5px   
+}
+
+.about-img img{
+    width: 195vw;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 2.6rem;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.btnz{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #fb6f92;
+    border: none; /* Remove the border */
+    border-radius: 2rem; /* Decrease the border radius for a softer look */
+    box-shadow: 0 0 1rem #fb6f92; /* Add some transparency to the shadow */
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+  }
+  .antz{
+    color: white;
+  }
+  .btnz:hover{
+  
+    box-shadow: none;
+  }
+  
+  
+  
+
+@media (max-width: 768px) {
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about img{
+        width: 68vw;
+        margin-top: 4rem;
+    }
+    .heading{
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    
+}
+

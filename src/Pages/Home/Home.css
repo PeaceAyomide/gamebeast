@@ -1,0 +1,164 @@
+.home{
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img img{
+  width: 120vw;
+animation: floatImage  4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-2.4rem);
+  }
+  100%{
+      transform: translateY(0);
+  }
+}
+
+
+
+
+.home-content h3{
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2){
+  margin-bottom: 1rem;
+}
+span{
+  color: var(--main-color);
+}
+
+.home-content h1, h3{
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+.zone{
+  color: #7209b7;
+}
+
+.home-content p{
+font-size: 1.6rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: #000;
+  border: none; /* Remove the border */
+  border-radius: 2rem; /* Decrease the border radius for a softer look */
+  box-shadow: 0 0 1rem #000; /* Add some transparency to the shadow */
+  font-size: 1.6rem;
+  color: white;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+
+.btn:hover{
+  
+  box-shadow: none;
+}
+
+.btn a{
+  font-size: 1.6rem;
+}
+
+.bten {
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: #007BFF;
+  border: none; /* Remove the border */
+  border-radius: 2rem; /* Decrease the border radius for a softer look */
+  box-shadow: 0 0 1rem #000; /* Add some transparency to the shadow */
+  font-size: 1.6rem;
+  color: white;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+
+.bten:hover{
+  
+  box-shadow: none;
+}
+
+.bten a{
+  font-size: 1.6rem;
+}
+
+
+/* END OF MENU */
+
+/* RESPONSIVE FOR EVERYTHING */
+  
+@media (max-width: 1200px) {
+  
+  html{
+      font-size: 55%;
+  }
+      
+  }
+  
+  @media (max-width: 991px) {
+  
+       section{
+        padding: 10rem 3% 2rem;  
+      }
+  
+       }
+  
+  @media (max-width: 768px) { 
+  .home{
+      flex-direction: column;
+  }
+  
+  .home-content h3{
+      font-size: 2.6rem;
+  }
+  
+  .home-content h1{
+      font-size: 5rem;
+  }
+  
+  .home-img img{
+      width: 70vw;
+      margin-top: 4rem;
+  }
+  
+  
+}
+  @media (max-width: 450px) {
+  
+      html{
+          font-size: 50%;
+      }
+  
+  }
+  
+  @media (max-width: 365px) {
+  .home-img img{
+      width: 90vw;
+  }
+  
+  
+  }
+  @media screen and (max-width: 320px) and (max-height: 568px) {
+    .home-content h1, h3{
+      font-size: 5.6rem;
+      font-weight: 700;
+      line-height: 5rem;
+    }
+  }
+
+  

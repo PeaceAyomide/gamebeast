@@ -1,0 +1,121 @@
+.Apps {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .activeColor {
+    color: #007BFF;
+    cursor: pointer;
+    border: 2px solid #007BFF;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btenz {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .button12:hover {
+    background-color: #0056b3;
+  }
+  /* Styling for the container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+  }
+  
+  /* Styling for the buttons */
+  .button-container > div {
+    width: 5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: #007BFF;
+  }
+  
+  /* Hover effect for buttons */
+  .button-container > div:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  @media (max-width: 1200px) {
+  h1{
+    font-size: 3rem;
+  }
+  .btenz{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.7rem;
+    margin-top: 10px;
+  }
+  
+  .button-container > div {
+    width: 5rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #007BFF;
+  }
+  
+  input {
+    
+    width: 150%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.3rem;
+  }
+    
+  }
