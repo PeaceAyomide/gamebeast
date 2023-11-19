@@ -13,7 +13,7 @@
 .services .box
 {
     position: relative;
-    
+    width:  250px;
     height: 350px;
     background: #2e2e2e;
     display: flex;
