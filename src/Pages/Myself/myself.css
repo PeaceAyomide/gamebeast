@@ -49,3 +49,52 @@
     margin-bottom: 12px;
     text-align: center;
 }
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnn {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button i {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+/* Social media colors */
+button.github, .linkt {
+    color: white;
+    background-color: black;
+} 
+
+button.twitter  {
+    background-color: #1da1f2;
+}
+
+button.pinterest, .link {
+    background-color: #99d98c;
+    color: black;
+} 
