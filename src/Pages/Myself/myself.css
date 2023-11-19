@@ -1,7 +1,7 @@
 
 
 .bodys {
-    height: 100vh;
+    min-height: 100vh;
     width: 95%;
     background-color: #e4e4e4;
     display: flex;
